@@ -43,9 +43,9 @@ class Main {
     let datosCliente = {
       nombre: "Perry Almanio Pananero",
       direccion: new Direccion("Oliviadrune", 334, 12, "Raioleop", 421234, "Villa de Alvarez", "Colima"),
-      telefono: 3125847294,
-      numeroCliente: 12587,
-      fecha: new Fecha(new Date(2017,8,24))
+      telefono: 3121230123,
+      numeroCliente: 24242,
+      fecha: new Fecha(new Date(2020,8,27))
   }
 
     this.clienteFrecuente = new ClienteFrecuente(datosCliente)
