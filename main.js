@@ -41,14 +41,14 @@ class Main {
     this.pedido.agregarElemento(this.elemento3);
 
     let datosCliente = {
-      nombre: "Juanito Alcachofaz fafafa",
-      direccion: new Direccion("Peras", 220, 7, "VillaSenior", 244876, "Colima", "Colima"),
+      nombre: "Perry Almanio Pananero",
+      direccion: new Direccion("Oliviadrune", 334, 12, "Raioleop", 421234, "Villa de Alvarez", "Colima"),
       telefono: 3125847294,
       numeroCliente: 12587,
       fecha: new Fecha(new Date(2017,8,24))
   }
 
-  this.clienteFrecuente = new ClienteFrecuente(datosCliente)
+    this.clienteFrecuente = new ClienteFrecuente(datosCliente)
   
     
   }
@@ -97,8 +97,11 @@ class Main {
     console.log(this.pedido.getCostoTotal());
     this.pedido.listarElementos();
   }
-}
 
+  probarClienteFrecuente(){ 
+  console.log(this.clienteFrecuente)
+}
+}
 let app = new Main();
 
 app.probarFecha();
@@ -109,3 +112,4 @@ app.probarProducto();
 app.probarElementoPedido();
 app.probarCliente();
 app.probarPedido();
+app.probarClienteFrecuente();
